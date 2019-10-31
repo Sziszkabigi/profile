@@ -31,9 +31,10 @@ a {
     color: grey;
     font-weight: 600;
     font-size: 16px;
-  }
+    list-style: none;
+}
 
-    a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -50,9 +51,15 @@ a {
   border-radius: 10px;
   margin: 8px;
 }
+
+.list-inline {
+  padding: 0;
+}
+
 .list-inline > li {
-  display: inline-block;
+  display: inline;
   padding: 0px 20px;
+  list-style: none;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
