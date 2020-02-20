@@ -21,8 +21,9 @@ h2{
 }
 
 #profpic {
-  border-radius: 50%;
-  width: 180px
+  border-radius: 360%;
+  width: 170px;
+
 
 }
 a {
