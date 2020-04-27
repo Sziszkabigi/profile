@@ -13,7 +13,7 @@ h1, h2, h3 {
 }
 
 h1{
-      color: #3A4456;
+  color: #3A4456;
 }
 
 h2{
@@ -21,10 +21,8 @@ h2{
 }
 
 #profpic {
-  border-radius: 360%;
-  width: 170px;
 
-
+  width: 200px;
 }
 a {
     font-family: 'Roboto', sans-serif;
@@ -49,7 +47,7 @@ a:hover {
   background: white;
   padding: 30px;
   border: 1px solid lightgrey;
-  border-radius: 10px;
+  border-radius: 180px;
   margin: 8px;
 }
 
