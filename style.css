@@ -1,11 +1,11 @@
-body{
-  font-family: 'Libre Franklin', sans-serif;
-  color: #6F7A8E;
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  background: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&dpr=2&auto=format&fit=crop&w=416&h=312&q=60");
-  background-size: repeat;
-  background-size:cover;
-  background-attachment:fixed;
+  background-color: #33302f;
+  margin:0;
 }
 
 h1, h2, h3 {
@@ -20,10 +20,6 @@ h2{
   color: #AE603E;
 }
 
-#profpic {
-
-  width: 200px;
-}
 a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -40,25 +36,228 @@ a:hover {
 .container {
   width: 500px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
-
+  background-color: #33302f;
 }
 .card {
   text-align: center;
-  background: white;
+  background: #524b4a;
   padding: 30px;
-  border: 1px solid lightgrey;
-  border-radius: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
   margin: 8px;
+  color: white;
 }
-
 .list-inline {
-  padding: 0;
+  list-style: none;
+  padding-left: 0px;
 }
-
 .list-inline > li {
   display: inline;
-  padding: 0px 20px;
-  list-style: none;
+  justify-content: center;
+  padding: 0px 15px;
+}
+.container-demo{
+  padding:0;
+  margin:0;
+}
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.demo .large-header {
+   background-image: url("https://images.hdqwalls.com/download/sky-full-of-stars-space-5k-h0-1920x1080.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+   background-color: #33302f;
+   border-radius: 50%;
+   padding:50px;
+   margin: 30px;
+   width: 300px;
+   height: 300px;
+   opacity: 80%;
+
+}
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+.main-title .thin {
+   font-weight: 200;
+}
+
+
+/* profile card */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0057 {
+ font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 380px;
+     max-width: 480px;
+    /* width: 100%; */
+    background: #3c3836;
+    color: #f9f1e9;
+}
+figure.snip0057 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip0057 .image {
+  width: 50%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+figure.snip0057 .image img {
+  width: 400px;
+  position: relative;
+  display: block;
+  left: -15%;
+  z-index: 1;
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+}
+figure.snip0057:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 45%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: skewX(-17deg);
+  transform: skewX(-17deg);
+  -webkit-box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+}
+figure.snip0057 figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 50%;
+}
+figure.snip0057 figcaption h2,
+figure.snip0057 figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.snip0057 figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0057 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0057 figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0057 figcaption .icons {
+  width: 100%;
+  text-align: right;
+}
+figure.snip0057 figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: white;
+  opacity: 0;
+}
+figure.snip0057 figcaption a {
+  opacity: 0.3;
+}
+figure.snip0057 figcaption a:hover {
+  opacity: 0.8;
+}
+figure.snip0057 .position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  font-style: italic;
+  color: #f7f4f2;
+  background: ##d9a989;
+}
+
+figure.snip0057.red .position {
+  background: #2f2d2b;
+}
+figure.snip0057:hover figcaption,
+figure.snip0057.hover figcaption {
+  bottom: 40px;
+}
+figure.snip0057:hover .icons i,
+figure.snip0057.hover .icons i {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip0057:hover:before,
+figure.snip0057.hover:before {
+  -webkit-animation: shadow 0.6s ease-in-out;
+  animation: shadow 0.6s ease-in-out;
+}
+@-webkit-keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+
+/* Demo purposes only */
+
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -78,3 +277,6 @@ a:hover {
     width: 300px;
   }
 }
+
+
+
