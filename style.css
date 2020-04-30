@@ -70,8 +70,8 @@ a:hover {
    z-index: 1;
 }
 
-.demo .large-header {
-   background-image: url("https://images.hdqwalls.com/download/sky-full-of-stars-space-5k-h0-1920x1080.jpg");
+.large-header {
+   background-image: url("https://www.desktopbackground.org/p/2013/04/19/563152_2560x1440-galaxy-mlociny-path-night-sky-stars-wallpapers-and_2560x1440_h.jpg");
 }
 
 .main-title {
@@ -252,7 +252,6 @@ figure.snip0057.hover:before {
 
 /* Demo purposes only */
 
-}
 
 @media only screen and (max-width: 768px) {
    .demo .main-title {
