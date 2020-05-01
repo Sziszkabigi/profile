@@ -1,20 +1,30 @@
 
-.left {
-  left: 25px;
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  background: #222;
 }
 
-.right {
+
+.footer .left-bottom {
+  left: 25px;
+   position: absolute;
+  bottom: 25px;
+  text-align: center;
+}
+
+.footer .right-bottom{
   right: 25px;
+   position: absolute;
+  bottom: 25px;
+  text-align: center;
 }
 
 .center {
   text-align: center;
 }
 
-.bottom {
-  position: absolute;
-  bottom: 25px;
-}
+
 
 #gradient {
   background: #999955;
@@ -39,32 +49,34 @@
   z-index: -1;
 }
 
-#footer {
-  position: absolute;
-  width: 450px;
-  height: 225px;
-  padding: 25px;
-  padding-top: 0;
-  padding-bottom: 0;
-  left: 50%;
-  top: 67.5px;
-  margin-left: -250px;
-  background: #E9E2D0;
-  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
-  z-index: 5;
-}
+ #contact-card {
 
-#card img {
+    width: 450px;
+    height: 225px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 50%;
+    top: 27.5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #E9E2D0;
+    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+    z-index: 5;
+}
+/*
+#contact-card img {
   width: 150px;
   float: left;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-right: 20px;
   -webkit-filter: sepia(1);
   -moz-filter: sepia(1);
   filter: sepia(1);
-}
+}*/
 
-#card h2 {
+#contact-card h2 {
   font-family: courier;
   color: #333;
   margin: 0 auto;
@@ -72,12 +84,12 @@
   font-size: 15pt;
 }
 
-#card p {
+#contact-card p {
   font-family: courier;
   color: #555;
   font-size: 13px;
 }
 
-#card span {
+#contact-card span {
   font-family: courier;
 }

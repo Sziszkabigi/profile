@@ -1,5 +1,6 @@
 @import "card.scss";
-@import "footer.scss"
+@import "footer.scss";
+
 .main_h {
   position: fixed;
   top: 0px;
@@ -164,8 +165,10 @@ p {
 }
 
 .hero {
+  /* https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/109852763/original/e9f05328b042adf5ef076bf637296a484a609342/create-trendy-abstract-geometric-pattern-on-light-background.jpg */
+  /* https://coverfiles.alphacoders.com/132/132917.jpg*/
   position: relative;
-  background: url(https://coverfiles.alphacoders.com/132/132917.jpg) no-repeat center center fixed;
+  background: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/109852763/original/e9f05328b042adf5ef076bf637296a484a609342/create-trendy-abstract-geometric-pattern-on-light-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
