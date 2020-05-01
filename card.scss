@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 .card-container {
-  background-color: #202020;
+  background-color: ;
   text-align: center;
 }
 
@@ -53,6 +53,7 @@
     margin: 0;
   }
     .more {
+
     width: 40px;
     height: 40px;
     background-color: red;
@@ -86,7 +87,7 @@
         opacity: 1;
         transition: all 0.5s ease-out 0.3s;
       }
-      .more:hoover span{
+      .portfolio-card:hover .more {
         opacity: 1;
         bottom: -10px;
         transition: all 0.2s ease-out 0.4s;
