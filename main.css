@@ -173,7 +173,7 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   text-align: center;
-  color: #fff;
+  color: black;
   padding-top: 110px;
   min-height: 500px;
   letter-spacing: 2px;
@@ -190,9 +190,9 @@ p {
 }
 
 .hero h1 span {
-  font-size: 25px;
-  color: #e8f380;
-  border-bottom: 2px solid #e8f380;
+  font-size: 30px;
+  color: black;
+  border-bottom: 2px solid black;
   padding-bottom: 12px;
   line-height: 3;
 
