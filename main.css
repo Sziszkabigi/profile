@@ -1,5 +1,5 @@
 @import "card.scss";
-
+@import "footer.scss"
 .main_h {
   position: fixed;
   top: 0px;
