@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
-body {
+.card-box {
 
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .large-header {
-   background-image: url("https://cdn.pixabay.com/photo/2014/08/01/00/08/pier-407252_1280.jpg");
+   background-image: url("https://www.desktopbackground.org/p/2013/04/19/563152_2560x1440-galaxy-mlociny-path-night-sky-stars-wallpapers-and_2560x1440_h.jpg");
 }
 
 .main-title {
