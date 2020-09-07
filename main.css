@@ -32,7 +32,7 @@
 }
 
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
+  background-color: rgb(70 64 64 / 93%);
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
@@ -137,7 +137,7 @@ nav ul a {
 
 body {
   color: #8f8f8f;
-  background: white;
+  background-color: #242526;
   font-family: "Cardo", serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -161,7 +161,7 @@ p {
 }
 
 .content {
-  padding: 50px 2% 250px;
+  padding: 50px 2%;
 }
 
 .hero {
@@ -265,9 +265,12 @@ p {
   align-items: center;
 }
 
-table {
-  align-items: center;
+
+.sec04 h1 {
   margin-left: auto;
   margin-right: auto;
 }
-
+.skill table{
+display: inline-block;
+align-items: inline;
+}
