@@ -186,7 +186,6 @@ p {
   min-height: 650px;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
-
   filter: sepia(50%);
   filter: drop-shadow(8px 8px 10px gray);
   margin-right: 0px;
