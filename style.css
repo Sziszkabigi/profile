@@ -107,6 +107,7 @@ a:hover {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 figure.snip0057 {
  font-family: 'Raleway', Arial, sans-serif;
     position: relative;
@@ -218,8 +219,8 @@ figure.snip0057.hover figcaption {
 figure.snip0057:hover .icons i,
 figure.snip0057.hover .icons i {
   opacity: 1;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 figure.snip0057:hover:before,
 figure.snip0057.hover:before {
