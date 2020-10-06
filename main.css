@@ -138,9 +138,13 @@ nav ul a {
 body {
   color: #8f8f8f;
   background-color: #242526;
-  font-family: "Cardo", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+  margin-left:0px;
 }
 
 a {
@@ -169,12 +173,14 @@ p {
   /* https://coverfiles.alphacoders.com/132/132917.jpg*/
   position: relative;
 
-  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1601466517/MYWEB/eberhard-grossgasteiger-j18EE7RtnvY-unsplash_k8kv9a.jpg) no-repeat center center fixed;
+  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1601466524/MYWEB/jose-ignacio-pompe-BOdwM5V0jU4-unsplash_nrm6lb.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   text-align: center;
-  color: white;
+  color: #D96865;
+  padding-right: 0px;
+  padding-left: 0px;
   padding-top: 110px;
   min-height: 650px;
   letter-spacing: 2px;
@@ -182,7 +188,9 @@ p {
 
   filter: sepia(50%);
   filter: drop-shadow(8px 8px 10px gray);
-
+  margin-right: 0px;
+  margin-left: 0px;
+  border:0;
 }
 .hero h1 {
   font-size: 50px;
@@ -192,8 +200,8 @@ p {
 
 .hero h1 span {
   font-size: 35px;
-  color: white;
-  border-bottom: 2px solid white;
+  color: #FE714A;
+  border-bottom: 2px solid #FE714A;
   padding-bottom: 12px;
   line-height: 3;
 
@@ -215,13 +223,14 @@ p {
   left: 50%;
   margin-left: -26px;
 }
+
 .mouse span {
   display: block;
   margin: 6px auto;
   width: 2px;
   height: 2px;
   border-radius: 4px;
-  background: white;
+  background: #FE714A;
   border: 5px solid transparent;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
