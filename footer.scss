@@ -8,7 +8,6 @@
   bottom:10px;
 }
 
-
 .footer .left-bottom {
   left: 25px;
   position: absolute;
@@ -44,7 +43,7 @@
   width: 520px;
   height: 275px;
   z-index: -1;
-   filter: drop-shadow(8px 8px 10px gray);
+  filter: drop-shadow(8px 8px 10px gray);
 }
 
  #contact-card {
@@ -76,7 +75,7 @@
 }*/
 
 #contact-card h2 {
-  text-align: centter;
+  text-align: center;
   font-family: courier;
   color: #333;
   margin: 0 auto;
@@ -95,9 +94,9 @@
 }
 
 .social-buttons a {
-display:inline;
-color: #31203E;
-margin:10px;
+ display:inline;
+ color: #31203E;
+ margin:10px;
 }
 
 .social-buttons:hover a {
@@ -105,5 +104,11 @@ margin:10px;
 }
 
 
-
+ .profpic {
+        position: absolute;
+        width: 150px;
+        height:170px;
+        bottom:45px;
+        right:20px;
+      }
 

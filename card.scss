@@ -69,30 +69,36 @@
     opacity: 0;
     transition: all 0.3s ease-out 0.2s;
     }
+
     .more span {
       color: black;
       font-size: 30px;
       line-height: 0px;
       display: block;
     }
+
     .portfolio-card:hover {
       box-shadow: inset 0px 0px 150px 100px rgba(0,0,0,0.8);
       background-size: 100%;
       transition: all 0.2s ease-out 0s;
     }
+
       .portfolio-card:hover h1{
         opacity: 1;
         transition: all 0.5s ease-out 0.2s;
       }
+
       .portfolio-card:hover p {
         opacity: 1;
         transition: all 0.5s ease-out 0.3s;
       }
+
       .portfolio-card:hover .more {
         opacity: 1;
         bottom: -10px;
         transition: all 0.2s ease-out 0.4s;
       }
+
       .profpic {
         position: absolute;
         width: 150px;

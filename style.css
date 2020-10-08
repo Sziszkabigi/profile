@@ -110,14 +110,14 @@ a:hover {
 
 figure.snip0057 {
  font-family: 'Raleway', Arial, sans-serif;
-    position: relative;
-    overflow: hidden;
-    margin: 10px;
-    min-width: 380px;
-     max-width: 480px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 380px;
+  max-width: 480px;
     /* width: 100%; */
-    background: #3c3836;
-    color: #f9f1e9;
+  background: #3c3836;
+  color: #f9f1e9;
 }
 figure.snip0057 * {
   -webkit-box-sizing: border-box;
@@ -206,7 +206,7 @@ figure.snip0057 .position {
   opacity: 1;
   font-style: italic;
   color: #f7f4f2;
-  background: ##d9a989;
+  background: #d9a989;
 }
 
 figure.snip0057.red .position {
@@ -219,8 +219,8 @@ figure.snip0057.hover figcaption {
 figure.snip0057:hover .icons i,
 figure.snip0057.hover .icons i {
   opacity: 1;
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 figure.snip0057:hover:before,
 figure.snip0057.hover:before {
