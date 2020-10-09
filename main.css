@@ -42,7 +42,7 @@
 .logo {
   width: 50px;
   font-size: 25px;
-  color: #8f8f8f;
+  color: white;
   text-transform: uppercase;
   float: left;
   display: block;
@@ -137,7 +137,7 @@ nav ul a {
 }
 
 body {
-  color: #eee;
+  color: black;
   background-color: #baaeae;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
