@@ -52,8 +52,7 @@
     transition: all 0.2s ease-out 0.3s;
     margin: 0;
   }
-
-  .more {
+    .more {
 
     width: 40px;
     height: 40px;
@@ -69,7 +68,7 @@
     margin: 0 auto;
     opacity: 0;
     transition: all 0.3s ease-out 0.2s;
-  }
+    }
 
     .more span {
       color: black;
@@ -98,4 +97,12 @@
         opacity: 1;
         bottom: -10px;
         transition: all 0.2s ease-out 0.4s;
+      }
+
+      .profpic {
+        position: absolute;
+        width: 150px;
+        height:170px;
+        bottom:45px;
+        right:20px;
       }
