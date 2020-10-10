@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-
+@import "card.scss";
+@import "footer.scss";
 .card-box {
 
   font-family: 'Open Sans', sans-serif;
