@@ -1,7 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
-@import "card.scss";
-@import "footer.scss";
-
 .card-box {
 
   font-family: 'Open Sans', sans-serif;
@@ -255,30 +251,29 @@ figure.snip0057.hover:before {
 
 /* Demo purposes only */
 
-
-@media only screen and (max-width: 768px) {
-   .demo .main-title {
-      font-size: 3em;
-   }
-}
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
+/*
+    @media only screen and (max-width: 768px) {
+     .demo .main-title {
+        font-size: 3em;
+     }
   }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+  /*  .container {
+      width: 700px;
+    }
   }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+  /*  .container {
+      width: 500px;
+    }
   }
-}
-
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+  /*  .container {
+      width: 300px;
+    }
+  }
 
 
