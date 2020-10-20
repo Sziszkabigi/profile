@@ -430,11 +430,12 @@ margin-right: 10px;
   bottom:10px;
 }
 
-.footer .left-bottom {
-  left: 25px;
+.left-bottom {
+  left: auto;
   position: absolute;
-  bottom: 25px;
+  bottom: 9px;
   text-align: center;
+  padding-top:5px
 }
 
 .footer .right-bottom{
