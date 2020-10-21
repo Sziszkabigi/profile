@@ -178,7 +178,7 @@ p {
   /* https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/109852763/original/e9f05328b042adf5ef076bf637296a484a609342/create-trendy-abstract-geometric-pattern-on-light-background.jpg */
   /* https://coverfiles.alphacoders.com/132/132917.jpg*/
   position: relative;
-  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1601466524/MYWEB/jose-ignacio-pompe-BOdwM5V0jU4-unsplash_nrm6lb.jpg) no-repeat center center fixed;
+  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/c_fill,q_76,w_1010/v1601466524/MYWEB/jose-ignacio-pompe-BOdwM5V0jU4-unsplash_nrm6lb.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -342,10 +342,9 @@ margin-right: 10px;
     display: inline-block;
     margin: 10px;
   }
-
-    .portfolio-card h1 {
-    font-family: Lato;
-    color: #eee;
+ .portfolio-card h1 {
+    font-family: "Montserrat", sans-serif;;
+    color: #fd5248;
     font-weight: 500;
     text-align: center;
     font-size: 22px;
@@ -357,8 +356,8 @@ margin-right: 10px;
   }
 
     .portfolio-card p {
-    font-family: Lato;
-    color: #eee;
+    font-family: "Montserrat", sans-serif;
+    color: #fd5248;
     font-weight: 500;
     text-align: center;
     font-size: 16px;
@@ -370,7 +369,7 @@ margin-right: 10px;
 
     width: 40px;
     height: 40px;
-    background-color: red;
+    background-color: #b23255;
 
     padding: 12px 8px;
     box-sizing: border-box;
@@ -418,6 +417,7 @@ margin-right: 10px;
 
 /*footer */
 
+
 .footer-container{
   padding-bottom: 80px;
 }
@@ -438,8 +438,8 @@ margin-right: 10px;
   padding-top:5px
 }
 
-.footer .right-bottom{
-  right: 25px;
+.right-bottom{
+  right: auto;
   position: absolute;
   bottom: 25px;
   text-align: center;
@@ -448,7 +448,7 @@ margin-right: 10px;
 #gradient {
   background: #999955;
   background-image: linear-gradient(#FF9348 20%, #FF724A 20%, #FF724A 40%, #FE5349 40%, #FE5349 60%, #B23255 60%, #B23255 80%, #421232 80%);
-  margin: 0 auto;
+  margin: 0px auto;
   margin-top: 100px;
   width: 100%;
   height: 150px;
@@ -529,12 +529,12 @@ margin-right: 10px;
 
 
 .profpic {
-        position: absolute;
-        width: 150px;
-        height:170px;
-        bottom:45px;
-        right:20px;
-        padding-bottom-bottom: 1px;
+  position: absolute;
+  width: 150px;
+  height:170px;
+  bottom:45px;
+  right:20px;
+  padding-bottom-bottom: 1px;
 }
 
 
