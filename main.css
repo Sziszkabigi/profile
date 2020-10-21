@@ -481,10 +481,24 @@ margin-right: 10px;
     margin-left: -225px;
     padding-left: 20px;
     border-radius: 3px;
-
     background: #aaa7a7;
     box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
     z-index: 5;
+}
+@media only screen and (max-width: 400px) {
+  #contact-card {
+    width: 90%;
+    height:auto;
+    margin: 0;
+    position:absolute;
+
+    height: 225px;
+    padding: 10px;
+    padding-top: initial;
+
+    left: 5%;
+    bottom:-30px;
+  }
 }
 /*
 #contact-card img {
