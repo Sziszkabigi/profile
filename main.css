@@ -211,8 +211,8 @@ p {
 
 @media only screen and (max-width: 400px) {
   .hero  {
-    -webkit-background-size: cover;
-    -moz-background-size: inherit;
+    background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1603316226/MYWEB/profilebackground_uykpvj.jpg)
+
     background-size:cover;
     min-height: 650px;
     padding-top: 110px;
@@ -547,6 +547,7 @@ margin-right: 10px;
 }
 @media only screen and (max-width: 400px) {
   #contact-card {
+
     width: 90%;
     height:auto;
     margin: 0;
