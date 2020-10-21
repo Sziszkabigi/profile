@@ -133,6 +133,13 @@ nav {
   padding: 0 2%;
 }
 
+@media only screen and (max-width: 400px) {
+.row p {
+  padding-left:25px;
+  padding-right:5px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -204,6 +211,12 @@ p {
   color:#FD5248;
 }
 
+@media only screen and (max-width: 400px) {
+  .hero h1 {
+    font-size:45px;
+  }
+}
+
 .hero h1 span {
   font-size: 35px;
   color: #FF714A;
@@ -215,7 +228,11 @@ p {
   /*background-color: black;*/
   /*opacity: 70%;*/
 }
-
+@media only screen and (max-width: 400px) {
+  .hero h1 span{
+    font-size:25px;
+  }
+}
 
 .mouse {
   display: block;
@@ -437,12 +454,30 @@ margin-right: 10px;
   text-align: center;
   padding-top:5px
 }
+@media only screen and (max-width: 400px) {
+  .left-bottom {
+
+  left: -0px;
+  padding:5px;
+  text-align:start;
+
+  }
+}
 
 .right-bottom{
   right: auto;
   position: absolute;
   bottom: 25px;
   text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .right-bottom {
+
+  right:170px;
+  position: absolute;
+  bottom: 55px;
+  text-align: start;
+  }
 }
 
 #gradient {
@@ -550,6 +585,16 @@ margin-right: 10px;
   right:20px;
   padding-bottom-bottom: 1px;
 }
+
+@media only screen and (max-width: 400px) {
+  .profpic {
+   width: 140px;
+   height:160px;
+   bottom:55px;
+   right:5px;
+  }
+}
+
 
 
 
