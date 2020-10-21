@@ -133,10 +133,15 @@ nav {
   padding: 0 2%;
 }
 
+.row p{
+  letter-spacing:1px;
+  text-align: justify;
+}
+
 @media only screen and (max-width: 400px) {
 .row p {
-  padding-left:25px;
-  padding-right:5px;
+  padding-left:10px;
+  padding-right:10px;
   }
 }
 
@@ -202,6 +207,12 @@ p {
   margin-right: 0px;
   margin-left: 0px;
   border:0;
+}
+
+@media only screen and (max-width: 400px) {
+  .hero  {
+    background-size;cover;
+  }
 }
 
 .hero h1 {
@@ -594,6 +605,12 @@ margin-right: 10px;
    right:5px;
   }
 }
+
+
+
+
+
+
 
 
 
