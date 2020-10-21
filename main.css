@@ -211,7 +211,12 @@ p {
 
 @media only screen and (max-width: 400px) {
   .hero  {
-    background-size;cover;
+    -webkit-background-size: cover;
+    -moz-background-size: inherit;
+    background-size:cover;
+    min-height: 650px;
+    padding-top: 110px;
+
   }
 }
 
@@ -514,6 +519,15 @@ margin-right: 10px;
   z-index: -1;
   filter: drop-shadow(8px 8px 10px gray);
 }
+@media only screen and (max-width: 400px) {
+  #gradient:after {
+    width: 320px;
+    height: 270px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-left: -180px;
+  }
+}
 
  #contact-card {
     position:absolute;
@@ -605,7 +619,6 @@ margin-right: 10px;
    right:5px;
   }
 }
-
 
 
 
