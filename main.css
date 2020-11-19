@@ -37,7 +37,8 @@ body {
 }
 @media only screen and (max-width: 766px) {
   .main_h {
-    padding-top: 10px;
+   max-height: 50px;
+   padding-top: 10px;
   }
 }
 
@@ -55,6 +56,7 @@ body {
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
+
 }
 
 .logo {
@@ -91,8 +93,7 @@ nav {
 }
 @media only screen and (max-width: 766px) {
   .row nav ul {
-    padding-top: 10px;
-    margin-bottom: 22px;
+
     float: left;
     text-align: center;
     width: 100%;
@@ -121,8 +122,8 @@ nav {
   cursor: pointer;
   font-size: 20px;
   position: absolute;
-  right: 22px;
-  top: 0;
+  right: 15px;
+  top: 0px;
   width: 30px;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -247,17 +248,19 @@ p {
 }
 
 .mouse {
-  display: block;
-  margin: 0px auto;
-  width: 26px;
-  height: 46px;
-  border-radius: 13px;
-  border: 2px solid #B23255;
-  position: absolute;
-  bottom: 40px;
-  position: absolute;
-  left: 50%;
-  margin-left: -26px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 26px;
+    height: 65px;
+    border-radius: 13px;
+    border: 2px solid #B23255;
+    /* position: absolute; */
+    /* bottom: 40px; */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* margin-left: -26px; */
+    margin-top: 69px;
 }
 
 .mouse span {
