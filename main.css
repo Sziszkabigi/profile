@@ -1,6 +1,23 @@
- @import "card.scss";
+@import "card.scss";
 @import "footer.scss";
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  background-color: #baaeae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+  margin-left:0px;
+  margin-top: 0px;
+
+}
 
 .main_h {
   position: fixed;
@@ -145,23 +162,7 @@ nav {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
 
-body {
-  color: #eee;
-  background-color: #baaeae;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  padding-right:0px;
-  padding-left:0px;
-  margin-right:0px;
-  margin-left:0px;
-  margin-top: 0px;
-
-}
 
 a {
 
@@ -190,10 +191,11 @@ p {
   /* https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/109852763/original/e9f05328b042adf5ef076bf637296a484a609342/create-trendy-abstract-geometric-pattern-on-light-background.jpg */
   /* https://coverfiles.alphacoders.com/132/132917.jpg*/
   position: relative;
-  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/c_fill,q_76,w_1010/v1601466524/MYWEB/jose-ignacio-pompe-BOdwM5V0jU4-unsplash_nrm6lb.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/c_fill,q_76,w_1010/v1601466524/MYWEB/jose-ignacio-pompe-BOdwM5V0jU4-unsplash_nrm6lb.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   text-align: center;
   color: #b23255;
   padding-right: 0px;
