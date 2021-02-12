@@ -1,0 +1,160 @@
+.footer-container {
+  padding-bottom: 80px;
+}
+.footer {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.left-bottom {
+  left: auto;
+  position: absolute;
+  bottom: 9px;
+  text-align: center;
+  padding-top: 5px;
+}
+@media only screen and (max-width: 400px) {
+  .left-bottom {
+    left: -0px;
+    padding: 5px;
+    text-align: start;
+  }
+}
+
+.right-bottom {
+  right: auto;
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .right-bottom {
+    right: 170px;
+    position: absolute;
+    bottom: 55px;
+    text-align: start;
+  }
+}
+
+#gradient {
+  background: #999955;
+  background-image: linear-gradient(
+    #ff9348 20%,
+    #ff724a 20%,
+    #ff724a 40%,
+    #fe5349 40%,
+    #fe5349 60%,
+    #b23255 60%,
+    #b23255 80%,
+    #421232 80%
+  );
+  margin: 0px auto;
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+}
+
+#gradient:after {
+  content: " ";
+  position: absolute;
+  background: #4e4848;
+  left: 50%;
+  margin-top: -67.5px;
+  margin-left: -270px;
+  padding-left: 20px;
+  border-radius: 3px;
+  width: 520px;
+  height: 275px;
+  z-index: -1;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+@media only screen and (max-width: 400px) {
+  #gradient:after {
+    width: 320px;
+    height: 270px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -180px;
+  }
+}
+
+#contact-card {
+  position: absolute;
+  width: 450px;
+  height: 225px;
+  padding: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  left: 50%;
+  margin-top: -190.5px;
+  margin-left: -225px;
+  padding-left: 20px;
+  border-radius: 3px;
+  background: #aaa7a7;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+}
+@media only screen and (max-width: 400px) {
+  #contact-card {
+    width: 90%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    height: 225px;
+    padding: 10px;
+    padding-top: initial;
+    left: 5%;
+    bottom: -30px;
+  }
+}
+
+#contact-card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15px;
+}
+
+#contact-card p {
+  font-family: courier;
+  color: #555;
+  font-size: 13px;
+}
+
+#contact-card span {
+  font-family: courier;
+}
+
+.social-buttons a {
+  display: inline;
+  color: #31203e;
+  margin: 10px;
+}
+
+.social-buttons:hover a {
+  color: #d73a24;
+}
+
+.profpic {
+  position: absolute;
+  width: 150px;
+  height: 170px;
+  bottom: 45px;
+  right: 20px;
+  padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 400px) {
+  .profpic {
+    width: 140px;
+    height: 160px;
+    bottom: 55px;
+    right: 5px;
+  }
+}

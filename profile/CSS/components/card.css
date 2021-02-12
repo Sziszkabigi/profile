@@ -1,14 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 .card-container {
-  background-color: ;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .card-container h1 {
   font-family: Lato;
   font-weight: 300;
-  color: #cfcfcf#aaa7a7;
+  color: #aaa7a7;
   font-size: 50px;
   margin-left: 5px;
   text-transform: uppercase;
@@ -26,12 +28,10 @@
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
-  margin: 10px;
 }
-
 .portfolio-card h1 {
-  font-family: Lato;
-  color: #eee;
+  font-family: "Montserrat", sans-serif;
+  color: #fd5248;
   font-weight: 500;
   text-align: center;
   font-size: 22px;
@@ -43,8 +43,8 @@
 }
 
 .portfolio-card p {
-  font-family: Lato;
-  color: #eee;
+  font-family: "Montserrat", sans-serif;
+  color: #fd5248;
   font-weight: 500;
   text-align: center;
   font-size: 16px;
@@ -55,7 +55,7 @@
 .more {
   width: 40px;
   height: 40px;
-  background-color: red;
+  background-color: #b23255;
 
   padding: 12px 8px;
   box-sizing: border-box;
@@ -98,10 +98,16 @@
   transition: all 0.2s ease-out 0.4s;
 }
 
-.profpic {
-  position: absolute;
-  width: 150px;
-  height: 170px;
-  bottom: 45px;
-  right: 20px;
+.source {
+  background-color: rgb(113 104 104 / 50%);
+  max-width: 300px;
+  margin: 15px;
+  border-radius: 3px;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+}
+.source p {
+  margin: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  border: gray;
 }
