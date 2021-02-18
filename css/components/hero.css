@@ -65,15 +65,15 @@
   top: 0px;
   max-height: 70px;
   z-index: 999;
-  width: 100%;
-  padding-top: 17px;
+  width: 100%;s
   background: none;
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   opacity: 0;
   top: -100px;
-  padding-bottom: 6px;
+  /*padding-bottom: 6px;
+  padding-top: 17px;*/
   font-family: "Montserrat", sans-serif;
 }
 @media only screen and (max-width: 766px) {
@@ -92,43 +92,84 @@
 }
 
 .sticky {
+  padding-top: 0px;
   color: white;
   background-color: rgb(70 64 64 / 93%);
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
+  
 }
 
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.row p {
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 400px) {
+  .row p {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.7;
+  }
+}
 .logo {
-  width: 50px;
+  background-image: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613174141/MYWEB/0_bs_logo.png);
+  background-size: cover;
+  background-position: center;
+  left: -15%;
+  position: relative;
+  /*left: 0%;*/
+  width: 45px;
+  height: 45px;
+  margin: 3px;
   font-size: 25px;
   color: #8f8f8f;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   float: left;
   display: block;
-  margin-top: 0;
-  margin-bottom: 10px;
 }
+@media only screen and (max-width: 1200px) {
+  .logo {
+    
+    left: -0%;
+  }
+}
+
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
+    left: -0%;
   }
 }
 
 nav {
+  
   float: right;
   width: 60%;
 }
 @media only screen and (max-width: 766px) {
   nav {
+    margin-right: 10px;
     width: 100%;
+    
   }
 }
+
 .row nav ul {
   list-style: none;
   overflow: hidden;
   text-align: right;
   float: right;
+  margin: 3px;
+  padding-right: 10px;
 }
 @media only screen and (max-width: 766px) {
   .row nav ul {
@@ -142,7 +183,7 @@ nav {
 .row nav ul li {
   display: inline-block;
   margin-left: 35px;
-  line-height: 1.5;
+  margin-top: 18px;
 }
 @media only screen and (max-width: 766px) {
   .row nav ul li {
@@ -164,7 +205,8 @@ nav {
   position: absolute;
   right: 15px;
   top: 0px;
-  width: 30px;
+  width: 20px;
+  margin-top: 10px;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
@@ -181,25 +223,4 @@ nav {
   border-radius: 1000px;
   background: #8f8f8f;
   display: block;
-}
-
-.row {
-  width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 2%;
-}
-
-.row p {
-  letter-spacing: 1px;
-  text-align: justify;
-}
-
-@media only screen and (max-width: 400px) {
-  .row p {
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1.7;
-  }
 }
