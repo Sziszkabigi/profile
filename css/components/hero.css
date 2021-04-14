@@ -1,6 +1,8 @@
 .hero {
-  background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613065370/MYWEB/bbbackground_cmjnjh.jpg)
-    no-repeat center center;
+  /*background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613065370/MYWEB/bbbackground_cmjnjh.jpg)
+    no-repeat center center;*/
+  background-image:linear-gradient(0.985rad, #111010, rgba(218,50,204,0.1)),
+  url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613065370/MYWEB/bbbackground_cmjnjh.jpg);
   max-width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -94,11 +96,11 @@
 .sticky {
   padding-top: 0px;
   color: white;
-  background-color: rgb(70 64 64 / 93%);
-  opacity: 1;
+  background-color: rgb(0 0 0 / 89%);
+  opacity: 0.97;
   top: 0px;
   border-bottom: 1px solid gainsboro;
-  
+
 }
 
 .row {
@@ -138,7 +140,7 @@
 }
 @media only screen and (max-width: 1200px) {
   .logo {
-    
+
     left: -0%;
   }
 }
@@ -151,7 +153,7 @@
 }
 
 nav {
-  
+
   float: right;
   width: 60%;
 }
@@ -159,7 +161,7 @@ nav {
   nav {
     margin-right: 10px;
     width: 100%;
-    
+
   }
 }
 
