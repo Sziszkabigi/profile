@@ -1,7 +1,7 @@
 .hero {
   /*background: url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613065370/MYWEB/bbbackground_cmjnjh.jpg)
     no-repeat center center;*/
-  background-image:linear-gradient(0.985rad, #111010, rgba(218,50,204,0.1)),
+  background-image:linear-gradient(0.985rad, #111010, rgb(88 43 43 / 50%)),
   url(https://res.cloudinary.com/dleicsu2y/image/upload/v1613065370/MYWEB/bbbackground_cmjnjh.jpg);
   max-width: 100%;
   -webkit-background-size: cover;
