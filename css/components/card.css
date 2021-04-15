@@ -103,8 +103,9 @@
   max-width: 300px;
   margin: 15px;
   border-radius: 3px;
-  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  box-shadow: -20px 0 35px -25px #9d7474, 20px 0 35px -25px #7e6b6b;
 }
+
 .source p {
   margin: 10px;
   font-size: 13px;
