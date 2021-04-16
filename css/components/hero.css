@@ -37,10 +37,11 @@
 }
 
 .hero h1 {
+  margin: 0;
   font-size: 50px;
   line-height: 1.3;
   filter: none;
-  color: #fd5248;
+  color: #ff9347;
 }
 
 @media only screen and (max-width: 400px) {
@@ -48,7 +49,7 @@
     font-size: 45px;
   }
 }
-
+/* ------ original-----*/
 .hero h1 span {
   font-size: 35px;
   color: #ff714a;
@@ -57,10 +58,45 @@
   line-height: 3;
    /*background-color: black;*/
   /*opacity: 70%;*/
+/}
+
+/*.hero h1 span {
+    font-weight: 100;
+    font-family: 'Josefin Slab', serif;
+    text-transform: none;
+    position: relative;
+    font-size: 60px;
+    top: -1px;
+    left: -78px;
+    color: #fe714a;
+    adding-bottom: 12px;
+    line-height: 3;
+    transform: rotate(
+20deg
+ );
+    offset-rotate: 100;
+    text-shadow: 0px 1px 0 #fd5248, 0px 2px 1px #d73a24, 0px 3px 0 #a92e1c, 0px 4px 0 #b43129, 0px 5px 0 #831d17, 0px 6px 0 #68140f, 0px 7px 0 #4d0906, 0px 8px 1px #61110d, 0px 9px 0 #310604, 0px 10px 0 #270402, 0px 11px 0 #260604, 0px 12px 1px #090909;
+    font font-weight: 100;
+    font-weight: -21px;
+    margin-bottom: 0;
+} */
+
+h1.grat b{
+  border-bottom: 1px solid #fe714a;
 }
 
-.hero h1 span .name{
-color:red;
+h2.title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #f34036;
+    margin-top: 0;
+    line-height: 0rem;
+}
+p.location{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #f34036;
 }
 
 
@@ -233,4 +269,6 @@ nav {
   background: #bc3459d1;
   display: block;
 }
+
+
 
