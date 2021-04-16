@@ -54,9 +54,10 @@
 .hero h1 span {
   font-size: 35px;
   color: #ff714a;
-  border-bottom: 2px solid #fe714a;
+  border-bottom: 1px solid #fe714a;
   padding-bottom: 12px;
   line-height: 3;
+  font-weight: 100;
    /*background-color: black;*/
   /*opacity: 70%;*/
 /}
